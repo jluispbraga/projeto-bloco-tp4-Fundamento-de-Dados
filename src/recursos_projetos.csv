@@ -1,0 +1,9 @@
+id,projeto_id,recurso_utilizado,tipo_recurso,quantidade_utilizada,dt_utilizacao
+1,1,Orçamento inicial,Financeiro,15000,2024-01-10
+2,2,Consultoria de CRM,Humano,3,2024-05-10
+3,3,Servidores de Teste,Material,5,2024-06-20
+4,4,Equipe de Desenvolvimento Web,Humano,4,2024-03-15
+5,5,Serviços em Nuvem,Financeiro,20000,2024-02-15
+6,6,Materiais de Treinamento,Material,50,2024-04-25
+7,7,Equipe de Sustentabilidade,Humano,5,2024-08-05
+8,1,Equipamentos de TI,Material,10,2024-02-01

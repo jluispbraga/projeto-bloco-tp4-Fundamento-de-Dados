@@ -1,0 +1,16 @@
+id,funcionario_id,nome,idade,genero
+1,1,Maria Silva,5,Feminino
+2,1,Lucas Silva,3,Masculino
+3,2,Pedro Santos,7,Masculino
+4,4,Ana Santos,4,Feminino
+5,4,Carla Costa,6,Feminino
+6,11,Fernanda Alves,3,Feminino
+7,11,Julia Alves,5,Feminino
+8,12,Gabriel Rocha,2,Masculino
+9,13,Sofia Mello,6,Feminino
+10,13,Laura Mello,4,Feminino
+11,14,Paulo Moreira,8,Masculino
+12,15,Alice Lopes,5,Feminino
+13,17,Caio Nunes,6,Masculino
+14,18,Marina Barros,2,Feminino
+15,19,Lucas Azevedo,3,Masculino
