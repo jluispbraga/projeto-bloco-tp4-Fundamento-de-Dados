@@ -11,6 +11,8 @@ connection = sqlite3.connect(os.path.join(diretorio, 'empresa.db'))
 # Buildar o banco de dados e criar os csv 
 run(connection)
 
+os.makedirs('json_files', exist_ok=True)
+
 def executar_consulta(target, conn):
     if target == 1:
         consulta_1.media_salarios_atuais(conn)

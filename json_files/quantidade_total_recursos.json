@@ -1,0 +1,14 @@
+[
+    {
+        "recurso": "Materiais de Treinamento",
+        "quantidade_total": 50
+    },
+    {
+        "recurso": "Equipamentos de TI",
+        "quantidade_total": 10
+    },
+    {
+        "recurso": "Servidores de Teste",
+        "quantidade_total": 5
+    }
+]

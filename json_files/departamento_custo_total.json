@@ -1,0 +1,10 @@
+[
+    {
+        "departamento": "Recursos Humanos",
+        "custo_total": 23000.0
+    },
+    {
+        "departamento": "Financeiro",
+        "custo_total": 12000.0
+    }
+]

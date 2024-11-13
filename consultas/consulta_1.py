@@ -1,3 +1,5 @@
+import json, os
+
 def media_salarios_atuais(cursor):
 # Consulta SQL
     cursor.execute('''
@@ -13,7 +15,17 @@ def media_salarios_atuais(cursor):
         GROUP BY d.id;
     ''')
 
-    # Recuperando os resultados
     resultados = cursor.fetchall()
+    dados_json = [
+        {"departamento": departamento, "media_salarios": media_salario}
+        for departamento, media_salario in resultados
+    ]
+    
+    json_resultado = json.dumps(dados_json, indent=4, ensure_ascii=False)
+
     for departamento, media_salario in resultados:
         print(f"Departamento: {departamento}, Média dos Salários: {media_salario}")
+
+    caminho_arquivo = os.path.join('json_files', 'departamento_media_salarial.json')
+    with open(caminho_arquivo, 'w', encoding='utf-8') as file:
+        file.write(json_resultado)
